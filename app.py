@@ -4,11 +4,11 @@ import pandas as pd
 import streamlit as st 
 
 # page configuration 
-st.set_page_config(page_title="Loan Classification",page_icon="logo (1).png",layout="wide")
+st.set_page_config(page_title="Loan Classification",page_icon="logo.png",layout="wide")
 
 with st.sidebar:
     st.title("Loan Classification")
-    st.image("logo (1).png")
+    st.image("logo.png")
 
 
 # load the model 
